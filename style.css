@@ -1,0 +1,275 @@
+body {
+	font-family: Helvetica;
+	font-size: medium;
+	background-color: #EBEBEB;
+	color: #12665B;
+}
+
+#header {
+	background-color: #12665B;
+	color: #EBEBEB;
+	padding: 2%;
+}
+
+footer {
+	background-color: #12665B;
+	color: #EBEBEB;
+}
+
+h1.center {
+	text-align: center;
+}
+/*fixa så h3 är vänsterjusterad med*/
+h2, h3.center {
+	text-align: center;
+}
+/*background color for title*/
+h2.back {
+	text-align: center;
+	background-color: #12665B;
+	color: #EBEBEB;
+}
+
+p.center {
+	text-align: center;
+}
+
+p.right {
+	text-align: right;
+}
+
+p.justify {
+	text-align: justify;
+}
+
+input#submit {
+	color: white;
+	background-color: #E0C03C;
+}
+
+input#submit:hover {
+	color: #EBEBEB;
+	background-color: #8B1633;
+}
+
+a.color {
+	color: #EBEBEB;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px;
+}
+
+header. section. footer. aside. nav. article. figure {
+	display: block; 
+}
+	
+#page {
+    width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;	
+}
+
+#menu li {
+	display: inline;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#menu {
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	display: block; 
+}
+
+.container .imagebox {
+	float: left;
+	width: 50%;
+	text-align: center; 
+	/*background-color: #EBEBEB;*/
+	color: #12665B;
+}
+
+.container .textbox {
+	float: left;
+	width: 40%;
+	text-align: justify; 
+	/*background-color: #EBEBEB;*/
+	color: #12665B;
+}
+
+.container:after {
+	content: "."; 
+	display: block;
+	height: 0; 
+	clear: both;
+	visibility: hidden; 
+}
+/* fixa px*/
+@media screen and (max-width: 1400px) {
+.container .imagebox {
+	/*test color
+	background-color: pink;
+    color: white;*/
+	background-color: #EBEBEB;
+	color: #12665B;
+}
+
+.container .textbox {
+    /*test color
+	background-color: pink;
+    color: white;*/
+	background-color: #EBEBEB;
+	color: #12665B;
+  }
+}
+/* fixa px*/
+@media screen and (max-width: 1000px) {
+.container .imagebox {
+    /*testcolor
+	background-color: orange;
+	color: white;*/
+	width: 100%;
+	/*background-color: #EBEBEB;
+	color: #12665B;*/
+}
+
+.container .textbox {
+    /*test color
+	background-color: orange;
+    color: white;*/
+	width: 100%;
+	/*background-color: #EBEBEB;
+	color: #12665B;*/
+  }  
+}
+
+.container .box {
+	float: left;
+	width: 50%;
+	text-align: center; 
+}
+
+.container:after {
+	content: "."; 
+	display: block;
+	height: 0; 
+	clear: both;
+	visibility: hidden; 
+}
+/* fixa px*/
+@media screen and (max-width: 1400px) {
+.container .box {
+    /*test color
+	background-color: blue;
+    color: white;*/
+  }
+}
+/* fixa px*/
+@media screen and (max-width: 1000px) {
+.container .box {
+    /*test color
+	background-color: olive;
+	color: white;*/
+	width: 100%;
+    }
+}
+
+#centeredmenu {
+   float:left;
+   width:100%;
+   background:#EBEBEB;
+   /*overflow:hidden;
+   position:relative;*/
+}
+#centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#centeredmenu ul li a {
+    display:block;
+	margin:0 0 0 1px;
+	padding:3px 10px;
+	line-height:1.3em;
+	color: #12665B;
+	background-color: #EBEBEB;
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	color: #12665B;
+	background-color: #E0C03C;
+}
+
+#menu a:active {
+	color: #EBEBEB;
+	background-color: #8B1633;
+}
+
+#toys{
+	width:100%;
+}
+#toys th {
+    text-align: left;
+}
+
+#toys td, 
+#toys th {
+	border-width: 1px;
+	border-color: #12665B;
+	border-style: solid;
+	padding: 8px;
+	width: 33%;
+}
+
+
+/*
+#menu a {
+	color: #12665B;
+	background-color: #EBEBEB;
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu {
+	text-align: center;
+}
+
+#menu li {
+	color: #12665B;
+	background-color: #EBEBEB;
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	line-height: 20px;
+	height: 20px;
+}
+*/
